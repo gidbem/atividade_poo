@@ -11,10 +11,3 @@ class Pessoa:
         print('Gastei!')
         self.dinheiro -= 20
 
-pessoa = Pessoa('Giovanna')
-
-pessoa.trabalhar()
-pessoa.trabalhar()
-pessoa.gastar()
-
-print(pessoa.dinheiro)
